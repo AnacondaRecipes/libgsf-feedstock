@@ -46,6 +46,8 @@ about:
   license_family: GPL
   license_file: COPYING
   summary: An extensible I/O abstraction library for dealing with structured file formats
+  doc_url: https://github.com/GNOME/libgsf
+  dev_url: https://github.com/GNOME/libgsf
 
 extra:
   recipe-maintainers:
