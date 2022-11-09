@@ -46,11 +46,10 @@ about:
   license_family: GPL
   license_file: COPYING
   license_url: https://github.com/GNOME/libgsf/blob/master/COPYING
-  summary: An extensible I/O abstraction library for dealing with structured file formats
+  summary: The G Structured File Library
   description: |
-    libgsf -- The G Structured File Library
-
-    The project aims to provide an efficient extensible i/o abstraction for dealing with different structured file formats.
+    The project aims to provide an efficient extensible i/o abstraction
+    for dealing with different structured file formats.
   doc_url: https://github.com/GNOME/libgsf
   doc_source_url: https://github.com/GNOME/libgsf/tree/master/doc
   dev_url: https://github.com/GNOME/libgsf
@@ -58,3 +57,4 @@ about:
 extra:
   recipe-maintainers:
     - sebastian-luna-valero
+    - katietz
