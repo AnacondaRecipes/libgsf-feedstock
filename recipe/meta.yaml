@@ -41,7 +41,7 @@ test:
     - gsf --version
 
 about:
-  home: https://github.com/GNOME/libgsf
+  home: https://gitlab.gnome.org/GNOME/libgsf
   license: GPL-2.0-only
   license_family: GPL
   license_file: COPYING
@@ -49,8 +49,8 @@ about:
   description: |
     The project aims to provide an efficient extensible i/o abstraction
     for dealing with different structured file formats.
-  doc_url: https://github.com/GNOME/libgsf
-  dev_url: https://github.com/GNOME/libgsf
+  doc_url: https://gitlab.gnome.org/GNOME/libgsf
+  dev_url: https://gitlab.gnome.org/GNOME/libgsf
 
 extra:
   recipe-maintainers:
