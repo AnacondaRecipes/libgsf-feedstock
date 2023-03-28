@@ -10,30 +10,30 @@ source:
   sha256: 6e6c20d0778339069d583c0d63759d297e817ea10d0d897ebbe965f16e2e8e52
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage("libgsf", max_pin="x.x") }}
 
 requirements:
   build:
+    - {{ compiler('c') }}
+    - gnuconfig  # [unix]
+    - make  # [unix]
     - perl *
     - perl-xml-parser
     - pkg-config
-    - gnuconfig  # [unix]
-    - make  # [unix]
-    - {{ compiler('c') }}
   host:
-    - glib
-    - libxml2
-    - zlib
     - bzip2
-    - pcre
+    - glib
+    - libxml2 2.10
+    - pcre 8.45
+    - zlib 1.2.13
   run:
-    - glib
-    - libxml2
-    - zlib
     - bzip2
+    - glib
+    - libxml2 >=2.10.3,<2.11.0a0
+    - zlib >=1.2.13,<1.2.14
 
 test:
   commands:
