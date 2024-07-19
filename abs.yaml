@@ -1,8 +1,1 @@
-# Remove this tag when the underlying issue https://github.com/anaconda-distribution/rocket-platform/pull/751
-# will be resolved.
-pkg_build_image_tag: '2023.03.24'
-
-# the conda-build parameters to use
-build_parameters:
-  - "--suppress-variables"
-
+aggregate_branch: libxml_3.12.1
