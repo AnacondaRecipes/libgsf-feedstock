@@ -1,1 +1,4 @@
 aggregate_branch: libxml_2.13.1
+
+channels:
+  - https://staging.continuum.io/prefect/fs/gettext-feedstock/pr6/c7dfc15
