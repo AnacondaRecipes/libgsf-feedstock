@@ -29,7 +29,7 @@ requirements:
     - libxml2 {{ libxml2 }}
     - pcre 8.45
     - zlib 1.2.13
-    - gettext
+    - gettext  # [osx]
   run:
     - bzip2
     - glib
