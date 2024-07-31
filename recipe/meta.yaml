@@ -33,7 +33,7 @@ requirements:
   run:
     - bzip2
     - glib
-    - libxml2 >=2.13.1
+    - {{ pin_compatible('libxml2') }}
     - zlib >=1.2.13,<1.2.14
 
 test:
